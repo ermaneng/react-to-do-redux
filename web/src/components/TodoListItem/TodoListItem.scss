@@ -1,0 +1,11 @@
+.TodoListItem{
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px dashed #ccc;
+    gap:1rem;
+
+    input[type='checkbox']{
+        cursor: pointer;
+    }
+}
